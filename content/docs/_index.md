@@ -10,7 +10,7 @@ weight: 1
 Slice is a GUI app that takes a variable font as input and compiles a new font with a custom subset of the design space.  You define the slice of the design space that you want by setting values for each design axis that is available in your variable font.  This process reduces the design space coverage of the output font, creating a new font known as an "instance" in fancy font developer parlance.  
 
 {{< tip >}}
-Slice supports different types of font instances.   Check out the [Instances docs](instances) to learn more about output font types.
+Slice supports different types of design subspace builds.   Check out the [Design Spaces docs](designspaces) to learn more about output font types.
 {{< /tip >}}
 
 Font users with a limited use scope and no advanced, production distribution requirements can likely stop there.  The font should work for many simple, local use cases.
