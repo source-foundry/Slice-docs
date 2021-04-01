@@ -41,4 +41,4 @@ The app is built with PyQt5 and supports cross-platform use on Linux, macOS, and
 
 ## Important considerations when you slice
 
-Slice output fonts are considered `derivatives of the original variable font software`.  Licensed font users should understand the conditions of their font software license before compiling derivative fonts with the Slice application.
+Slice output fonts are considered `derivatives of the original variable font software`.  Licensed font users should understand the conditions of their font software license before compiling derivative fonts with the application.
