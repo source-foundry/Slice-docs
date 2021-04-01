@@ -1,4 +1,7 @@
 # Slice-docs
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ce875833-54ef-4fa4-9080-13531b88236e/deploy-status)](https://app.netlify.com/sites/slice-gui/deploys)
+
 Documentation for the Slice project
 
 
