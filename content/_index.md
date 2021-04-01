@@ -17,5 +17,8 @@ Interested in learning more about the `static` and `partial` instance font types
 
 {{< column >}}
 ![diy](/images/hero.png)
+  <a href="https://www.netlify.com">
+    <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" />
+  </a>
 {{< /column >}}
 {{< /block >}}
