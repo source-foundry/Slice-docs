@@ -6,13 +6,10 @@ title = "Slice"
 {{< column >}}
 # Custom font slices from variable design spaces.
 
-Slice is an open-source, cross-platform GUI app that generates custom fonts from variable fonts.
-
-TKTKTK
-
+Slice is an [open-source](https://github.com/source-foundry/Slice), cross-platform GUI app that generates custom instance fonts from variable fonts.
 
 {{< tip >}}
-This is a tip!  Learn more about something here.
+Interested in learning more about the `static` and `partial` instance font types that are generated with Slice?  Check out the [Instances](/docs/instances) docs!
 {{< /tip >}}
 
 {{< button "docs/" "Read the Docs" >}}{{< button "https://github.com/source-foundry/Slice/releases/latest" "Download" >}}
