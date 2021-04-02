@@ -9,7 +9,7 @@ title = "Slice"
 Slice is an [open-source](https://github.com/source-foundry/Slice), cross-platform GUI app that generates custom instance fonts from variable fonts.
 
 {{< tip >}}
-Interested in learning more about the design space slice types that are generated with Slice?  Check out the [Design Spaces](/docs/designspaces) docs!
+Interested in learning more about the design sub-space types that are generated when you slice a font?  Check out the [Design Spaces](/docs/designspaces) docs!
 {{< /tip >}}
 
 {{< button "docs/" "Read the Docs" >}}{{< button "https://github.com/source-foundry/Slice/releases/latest" "Download" >}}
