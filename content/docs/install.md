@@ -45,7 +45,9 @@ Drag the Slice.app bundle from the Applications directory to the Trash to uninst
 
 ## Windows
 
-TKTKTK
+Download the [latest Windows .exe installer](https://github.com/source-foundry/Slice/releases/latest) in our Releases.
+
+Launch the installer, acknowledge the license, and follow the instructions. You will have the option to set a desktop icon during installation.  When the install process completes, type "Slice" in the Win 10 Search bar or click the desktop icon to launch the application.
 
 ## Linux
 
