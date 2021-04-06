@@ -51,7 +51,7 @@ Good question.  There are several reasons why you might want to do this:
 
 The app is built with the PyQt5 GUI framework and supports cross-platform font compilation on recent Linux distribution, macOS, and Windows versions.
 
-Font sub-spacing and binary edits are performed with the [fonttools Python library](https://github.com/fonttools/fonttools).  This is a well-vetted library that is part of the free font compiler pipeline used by numerous professional and hobbyist type developers and for the development of most typeface families in the Google Fonts program.
+Font slicing and binary edits are performed with the [fonttools Python library](https://github.com/fonttools/fonttools).  This is a well-vetted library that is part of the free font compiler pipeline used by numerous professional and hobbyist type developers and for the development of most typeface families in the Google Fonts program.
 
 ## Important considerations
 
