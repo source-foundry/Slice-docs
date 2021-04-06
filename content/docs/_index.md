@@ -7,7 +7,7 @@ weight: 1
 
 ### 1. Reduce the typographic design space in a font
 
-Slice is a GUI app that takes a variable font as input and compiles a new font with a custom subset of the design space.  You define the sub-space that you want to slice by setting values for each design axis available in your variable font.
+Slice is a GUI app that takes a variable font as input and compiles a new font with a custom subset of the design space.  You define the sub-space that you want to slice by setting values for design axes available in your variable font.
 
 {{< tip >}}
 Slice supports different types of design sub-space builds.   Check out the [Design Spaces docs](designspaces) to learn more about output font types.
@@ -41,7 +41,7 @@ See the [Usage docs](usage) for instructions on font slicing and advanced font b
 
 Good question.  There are several reasons why you might want to do this:
 
-- If you do not need the entire design space offered by a variable font, sub-spaces that cover your needs may have a **smaller file size**., sub-spaces that cover your needs may have a **smaller file size**. This can be important for many use cases, including web font distribution and embedding in applications.
+- If you do not need the entire design space offered by a variable font, sub-spaces that cover your needs may have a **smaller file size**. This can be important for many use cases, including web font distribution and embedding in applications.
 - The applications that you use _**might not support the variable font format**_.
 - The environment where you need to distribute fonts for use by others _**might not support the variable font format**_.
 - You might need to _**name fonts that cover unique areas of the variable design space differently**_ so that they show up as separate families in menus. (e.g., monospaced and proportionally spaced families)
