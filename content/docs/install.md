@@ -51,4 +51,52 @@ Launch the installer, acknowledge the license, and follow the instructions. You 
 
 ## Linux
 
-TKTKTK
+### Run from source
+
+This is the recommended approach on Linux distributions because it uses our tested build dependency versions.
+
+Clone the repository with:
+
+```sh
+git clone https://github.com/source-foundry/Slice.git
+```
+
+Create a Python 3.6+ virtual environment with:
+
+```sh
+cd Slice
+python3 -m venv .venv
+```
+
+Install the required build dependencies with:
+
+```sh
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+Run the application with:
+
+```sh
+make run
+```
+
+### Install from PyPI
+
+This approach does not take advantage of the tested dependency versions but is available for users who want ~~to live on the wild side~~ easy access.
+
+Install with Py3.6+ `pip` using:
+
+```sh
+pip install slicegui
+```
+
+Run with:
+
+```sh
+slicegui
+```
+
+### Linux packages
+
+Arch Linux users can install the [slice AUR package](https://aur.archlinux.org/packages/slice/).
