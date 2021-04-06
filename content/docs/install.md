@@ -9,7 +9,7 @@ Install the application on your platform with the following instructions.
 
 ### Homebrew installation
 
-macOS users can install, upgrade, and uninstall Slice with [Homebrew](https://brew.sh/) and the Source Foundry tap room.
+macOS users can install, upgrade, and uninstall Slice with [Homebrew](https://brew.sh/) and the Source Foundry taproom.
 
 Use the following commands to install:
 
@@ -47,7 +47,7 @@ Drag the Slice.app bundle from the Applications directory to the Trash to uninst
 
 Download the [latest Windows .exe installer](https://github.com/source-foundry/Slice/releases/latest) in our Releases.
 
-Launch the installer, acknowledge the license, and follow the instructions. You will have the option to set a desktop icon during installation.  When the install process completes, type "Slice" in the Win 10 Search bar or click the desktop icon to launch the application.
+Launch the installer, acknowledge the license, and follow the instructions. You will have the option to set a desktop icon during installation.  Following installation, type "Slice" in the Win 10 Search bar or click the desktop icon to launch the application.
 
 ## Linux
 
