@@ -25,7 +25,7 @@ These developer features are optional.
 
 #### Edit font family and style names `(Developer Feature)`
 
-Slice provides an OpenType name table editor that allows you to define the output font family and style names at compile time.  This feature currently supports `platform=1, encoding=1, language=1033` name records only. Please refer to [the OpenType name table specification](https://docs.microsoft.com/en-us/typography/opentype/spec/name) for additional details about how the platform, encoding, and language ID's are used in text rendering environments.
+Slice provides an OpenType name table editor that allows you to define the output font family and style names at compile time.  This feature currently supports `platform=3, encoding=1, language=1033` name records only. Please refer to [the OpenType name table specification](https://docs.microsoft.com/en-us/typography/opentype/spec/name) for additional details about how the platform, encoding, and language ID's are used in text rendering environments.
 
 ### Edit style map bit flags `(Developer Feature)`
 
