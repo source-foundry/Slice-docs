@@ -87,7 +87,7 @@ make run
 
 ### Install from PyPI
 
-This approach does not take advantage of the tested dependency versions but is available for users who want ~~to live on the wild side~~ easy access.
+You can install Slice with the `pip` package manager using the [Python Package Index distribution](https://pypi.org/project/slicegui/).  This approach does not take advantage of the tested dependency versions and is not recommended but is available for users who want ~~to live on the wild side~~ easy access.
 
 Install with Py3.6+ `pip` using:
 
