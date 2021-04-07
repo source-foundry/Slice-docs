@@ -9,7 +9,11 @@ Install the application on your platform with the following instructions.
 
 ### Homebrew installation
 
-macOS users can install, upgrade, and uninstall Slice with [Homebrew](https://brew.sh/) and the Source Foundry taproom.
+{{< tip >}}
+Homebrew is an open source package manager for macOS that supports simple macOS application management.  You can learn more about it at https://brew.sh/.
+{{< /tip >}}
+
+macOS users can install, upgrade, and uninstall Slice with Homebrew and the Source Foundry taproom.
 
 Use the following commands to install:
 
