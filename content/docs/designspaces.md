@@ -123,7 +123,7 @@ Static instances are one type of output.  Slice provides a list of available axi
 
 But wait, there is more!  You may want to keep some of the variable axes.  Slice also allows you to create fonts that include combinations of variable and instanced axes.  This sub-space file is commonly known as a "partial instance font" because you do not instance all design axes.  So, you might slice a weight and width variable font into an output file that supports the entire variable weight axis but includes width defined at an instance value of 100 (standard width).
 
-If slicing sounds like something that you might need to do, see the [Usage](../../docs/usage) docs to learn more about using the app to slice your variable fonts.
+If slicing sounds like something that you might need to do, see the [Usage](../../docs/usage) docs to learn more about using the app.
 
 If you need some motivation to slice fonts, check out the [Why slice a font?](../../docs/#why-slice-a-font) docs.
 
