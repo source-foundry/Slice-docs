@@ -75,7 +75,7 @@ Users access an area of the design space in a variable font by defining a numeri
 
 ### Try a variable font!
 
-Stephen Nixon's Recursive typeface CodePen example allows you to explore a variable font in HTML/CSS by editing CSS settings for the family's slant (`slnt`), casual (`CASL`), cursive (`CRSV`), and monospaced (`MONO`) design axes.  Click the "Run Pen" text in the right side view to see the font in action.  Hover over the text to see the design change according to the CSS definitions in the editor on the left.  The CSS editor is not live on this page.  Click the "Edit on Codepen" link in the top right corner of the CodePen view to dive in and edit the `--MONO`, `--CASL`, `--slnt`, and `--CRSV` axis tag variables on the CodePen site.
+Stephen Nixon's Recursive typeface CodePen example allows you to explore a variable font in HTML/CSS by editing CSS settings for the family's slant (`slnt`), casual (`CASL`), cursive (`CRSV`), and monospaced (`MONO`) design axes.  Click the "Run Pen" text in the right side view to see the font in action.  Hover over the text to see the design change according to the CSS definitions in the editor on the left.  The CSS editor is not live on this page.  Click the "Edit on Codepen" link in the top right corner of the CodePen view to dive in and edit the `--MONO`, `--CASL`, `--slnt`, and `--CRSV` axis tag variable values on the CodePen site to see how the forms change with new definitions.
 
 <br>
 
