@@ -18,7 +18,7 @@ The Meriam-Webster dictionary includes the following definitions of the English 
 That's a good starting point for our purposes.  Let's combine the terms into a definition of a type design space:
 
 {{< tip >}}
-The “design space” is an n-dimensional arrangement of typeface elements where the value of n is determined by the number of elements supported in the typeface and the relationships between those elements.
+The “design space” is an n-dimensional arrangement of typeface elements where the value of n is determined by the number of design elements supported in the typeface and the relationships between those elements.
 {{< /tip >}}
 
 🤯 That's pretty abstract stuff.  The following example will hammer this concept home.
