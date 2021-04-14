@@ -12,7 +12,7 @@ Slice is an [open-source](https://github.com/source-foundry/Slice), cross-platfo
 Interested in learning more about the design sub-space types that are generated when you slice a font?  Check out the [Design Spaces](/docs/designspaces) docs!
 {{< /tip >}}
 
-{{< button "docs/" "Read the Docs" >}}{{< button "https://github.com/source-foundry/Slice/releases/latest" "Download" >}}
+{{< button "docs/" "Read the Docs" >}}{{< button "docs/install" "Install" >}}
 {{< /column >}}
 
 {{< column >}}
