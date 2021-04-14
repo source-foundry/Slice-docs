@@ -117,14 +117,14 @@ What if you don't set a value on an axis?  Every variable font sets a default va
 
 If you've reached this point, hopefully you have a better understanding of type design spaces, static instances, and how the variable font format differs from the static instance format.  Now we can discuss the role that Slice plays in the use of a variable font design space to generate new font files with different design spaces.
 
-Font compiler technology exists to create a new font from a "sub-space" of a variable font design space.  I like to think of this operation as "slicing" a design space and this is how the application earned its name.  The Slice app is a [fonttools instancer](https://github.com/fonttools/fonttools) based GUI tool that allows you to slice a variable font to create new sub-space fonts.  The application supports two types of sub-space output font files.
+Font compiler technology exists to create a new font from a "sub-space" of a variable font design space.  I like to think of this operation as "slicing" a design space and this is how the application earned its name.  The Slice app is a [fonttools instancer](https://github.com/fonttools/fonttools) based GUI tool that allows you to slice a variable font to create new sub-space fonts.  The application supports output of two types of sub-space font files.
 
 Static instances are one type of output.  Slice provides a list of available axis tags (and axis names when you hover over the tag) as well as the default, min, and max axis values.  Use these data to define a numeric value within the design space for every axis in the variable font and Slice creates a new static instance font at the location that is specified by your data.
 
-But wait, there is more!  You may want to keep some of the variable axes.  Slice also allows you to create fonts that include combinations of variable and instanced axes.  This type of sub-space file is commonly known as a "partial instance font" because you do not instance all design axes.  So, you might slice a weight and width variable font so that the output file supports the full variable weight axis but includes width defined at an axis instance value of 100 (normal width).
+But wait, there is more!  You may want to keep some of the variable axes.  Slice also allows you to create fonts that include combinations of variable and instanced axes.  This type of sub-space file is commonly known as a "partial instance font" because you do not instance all design axes.  So, you might slice a weight and width variable font so that the output file supports the full variable weight axis but includes width defined at an instance value of 100 (normal width).
 
-If that sounds like something that you might need to do, see the [Usage](../../docs/usage) docs to learn more about how to use the app to slice your variable fonts!
+If slicing sounds like something that you might need to do, see the [Usage](../../docs/usage) docs to learn more about how to use the app to slice your variable fonts!
 
-If you need some motivation to slice fonts, check out the ["Why slice a font?" docs](../../docs/#why-slice-a-font).
+If you need some motivation to slice fonts, check out the [Why slice a font?](../../docs/#why-slice-a-font) docs.
 
-And if you need no more guidance, the [Install docs](../../docs/install) are a click away and will show you how to get Slice up and running on your platform.
+And if no more guidance is required, the [Install docs](../../docs/install) are a click away and will show you how to get Slice up and running on your platform.
