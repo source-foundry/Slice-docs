@@ -1,6 +1,7 @@
 ---
 title: "Design Spaces"
 weight: 2
+draft: true
 ---
 
 There is a great deal of jargon in the type development industry.  Terms like "variable font", "design axis", "static instance", and "partial instance" are technical and confusing.  To understand slicing, you need to understand the concepts referenced by these terms and how they relate to the space within which the type designer works, the "design space".
