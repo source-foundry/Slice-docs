@@ -7,26 +7,27 @@ Slice is a cross-platform GUI app that works on recent versions of Linux, macOS,
 
 ## Quick Start Guide
 
-Drag and drop a variable font onto the Font Path text field
+Drag and drop a variable font onto the Font Path text field.
 
  <img src="/images/usage-dragdrop.gif" style="width: 75%; height: 75%" alt="Slice drag and drop font animation example" />
 
-Click on the axis row and enter a numeric value in the Axis Editor where you want to define a point location in the design space
+The variable design axes appear in the Axis Editor with corresponding range and default values.
+
+Click on an Axis Editor row and enter a numeric value for a location in the design space.
 
 - Axis rows with values define an axis that will have a new point location in the output font
 - Axis rows without values define an axis that will remain variable in the output font
 
  <img src="/images/usage-axisedit.gif" style="width: 75%; height: 75%" alt="Slice Axis Editor settings example" />
 
-*(Optional developer step)* Click on a name row and enter new family and style names in the Name Editor
+*(Optional developer step)* Click on a Name Editor row and enter a new family or style name.
 
  <img src="/images/usage-nameedit.gif" style="width: 75%; height: 75%" alt="Slice Name Editor settings example" />
 
-*(Optional developer step)* Click to set or clear the bit flag settings in the Bit Flag Editor
+*(Optional developer step)* Click on a setting in the Bit Flag Editor to set or clear bit flags.
 
  <img src="/images/usage-bitflagedit.gif" style="width: 75%; height: 75%" alt="Slice Bit Flag Editor settings example" />
 
-Click the Slice button and enter a file path for your new font
+Click the Slice button and enter a file path for your new font.
 
  <img src="/images/usage-sliceclick.gif" style="width: 75%; height: 75%" alt="Slice button click example" />
-
