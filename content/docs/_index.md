@@ -5,9 +5,9 @@ weight: 1
 
 ## What does Slice do?
 
-### 1. Reduce the type design space in a font
+### 1. Make a new font with a reduced design space
 
-Slice is a GUI app that takes a variable font as input and compiles a new font with a custom design sub-space.  You define the sub-space by setting values for the design axes that are available in the variable font.
+Slice is a GUI app that takes a variable font as input and compiles a new font with a custom design sub-space.  The new font can include any combination of variable axis and axis point location definitions.  You define the sub-space by setting values for the available design axes in the app's axis editor.
 
 {{< tip >}}
 Slice supports different types of sub-space output fonts.   Check out the [Design Spaces docs](designspaces) to learn more about variable design spaces and the output font types.
