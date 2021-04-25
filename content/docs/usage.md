@@ -15,7 +15,7 @@ The variable design axes appear in the Axis Editor with corresponding range and 
 
 Click on an Axis Editor row and enter a numeric value for a location in the design space.
 
-- Axis rows <span style="text-decoration: underline">with values</span> define an axis that will have a new point location in the output font
+- Axis rows <span style="text-decoration: underline">with values</span> define a new axis point location in the output font.  The axis will not be variable in the new font.
 - Axis rows <span style="text-decoration: underline">without values</span> define an axis that will remain variable in the output font
 
  <img src="/images/usage-axisedit.gif" style="width: 75%; height: 75%" alt="Slice Axis Editor settings example" />
