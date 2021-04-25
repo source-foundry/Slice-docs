@@ -18,6 +18,8 @@ Click on an Axis Editor row and enter a numeric value for a location in the desi
 - Axis rows <span style="text-decoration: underline">with values</span> define a new axis point location in the output font.  The axis will not be variable in the new font.
 - Axis rows <span style="text-decoration: underline">without values</span> define an axis that will remain variable in the output font
 
+You must define a point location for at least one design axis.  Static instance output fonts are defined by setting values for all axes displayed in the Axis Editor.  Design sub-space variable fonts are defined by keeping one or more of the design axes variable.
+
  <img src="/images/usage-axisedit.gif" style="width: 75%; height: 75%" alt="Slice Axis Editor settings example" />
 
 *(Optional developer step)* Click on a Name Editor row and enter a new family or style name.
