@@ -10,7 +10,7 @@ weight: 1
 Slice is a GUI app that takes a variable font as input and compiles a new font with a custom design sub-space.  The new font can include any combination of variable axis and axis point location definitions.  You define the sub-space by setting values for the available design axes in the app's axis editor.
 
 {{< tip >}}
-Slice supports different types of sub-space output fonts.   Check out the [Design Spaces docs](designspaces) to learn more about variable design spaces and the output font types.
+Slice supports both static instance and variable design sub-space output fonts.  See the [Usage docs](usage) to learn how to create these output file types.
 {{< /tip >}}
 
 Font users with a limited use scope and no advanced production distribution requirements can likely stop there.  The font should work for many simple, local use cases.
