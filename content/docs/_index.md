@@ -3,6 +3,16 @@ title: "Slice Documentation"
 weight: 1
 ---
 
+## Why slice a font?
+
+Good question.  There are several reasons why you might want to do this:
+
+- If you do not need the entire design space offered by a variable font, sub-spaces that cover your needs may have a **smaller file size**. This can be important for many use cases, including web font distribution and embedding in applications.
+- The applications that you use _**might not support the variable font format**_.
+- The environment where you need to distribute fonts for use by others _**might not support the variable font format**_.
+- You might need to _**name fonts that cover unique areas of the variable design space differently**_ so that they show up as separate families in menus. (e.g., monospaced and proportionally spaced families)
+- You might want to _**restrict the breadth of the design space that a user can access**_.
+
 ## What does Slice do?
 
 ### 1. Make a new font with a smaller design space
@@ -36,16 +46,6 @@ Details on *how* to appropriately set name table records and bit flags in fonts 
 {{< /tip >}}
 
 See the [Usage docs](usage) for instructions on font slicing and the advanced font binary editing features in Slice.
-
-## Why slice a font?
-
-Good question.  There are several reasons why you might want to do this:
-
-- If you do not need the entire design space offered by a variable font, sub-spaces that cover your needs may have a **smaller file size**. This can be important for many use cases, including web font distribution and embedding in applications.
-- The applications that you use _**might not support the variable font format**_.
-- The environment where you need to distribute fonts for use by others _**might not support the variable font format**_.
-- You might need to _**name fonts that cover unique areas of the variable design space differently**_ so that they show up as separate families in menus. (e.g., monospaced and proportionally spaced families)
-- You might want to _**restrict the breadth of the design space that a user can access**_.
 
 ## How does Slice slice a font?
 
