@@ -7,10 +7,10 @@ weight: 1
 
 ### 1. Reduce the type design space in a font
 
-Slice is a GUI app that takes a variable font as input and compiles a new font with a custom sub-space of the design space.  You define the sub-space that you want to slice by setting values for the design axes that are available in your variable font.
+Slice is a GUI app that takes a variable font as input and compiles a new font with a custom design sub-space.  You define the sub-space by setting values for the design axes that are available in the variable font.
 
 {{< tip >}}
-Slice supports different types of design sub-space fonts.   Check out the [Design Spaces docs](designspaces) to learn more about variable design spaces and the output font types.
+Slice supports different types of sub-space output fonts.   Check out the [Design Spaces docs](designspaces) to learn more about variable design spaces and the output font types.
 {{< /tip >}}
 
 Font users with a limited use scope and no advanced production distribution requirements can likely stop there.  The font should work for many simple, local use cases.
@@ -18,24 +18,24 @@ Font users with a limited use scope and no advanced production distribution requ
 ### 2. Font binary production tasks `(Optional Developer Features)`
 
 {{< tip >}}
-The app offers additional compile-time binary editing support for developers who have production engineering needs, such as defining different family names for A/B testing and setting the style mapping in a family of output fonts. 
+The app offers additional compile-time binary editing support for developers who have production engineering needs, such as defining different family names for A/B testing and setting the style mapping in a family of output fonts.
 
 These developer features are optional.
 {{< /tip >}}
 
 #### Edit font family and style names `(Developer Feature)`
 
-Slice provides an OpenType name table editor that allows you to define the output font family and style names at compile time.  This feature currently supports `platform=3, encoding=1, language=1033` name records only. Please refer to [the OpenType name table specification](https://docs.microsoft.com/en-us/typography/opentype/spec/name) for additional details about how the platform, encoding, and language ID's are used in text rendering environments.
+Slice provides an OpenType name table editor that allows you to define the output font family and style names.  This feature currently supports `platform=3, encoding=1, language=1033` name records only. Please refer to [the OpenType name table specification](https://docs.microsoft.com/en-us/typography/opentype/spec/name) for details about how the platform, encoding, and language ID's are used in text rendering environments.
 
 ### Edit style map bit flags `(Developer Feature)`
 
 The app allows a user to set and clear font binary bits in the OpenType specification-defined bit flags used for family style mapping.
 
 {{< tip >}}
-Details on *how* to appropriately set name table records and bit flags in fonts are beyond the scope here.  Please refer to [the OpenType specification](https://docs.microsoft.com/en-us/typography/opentype/spec/) for more information.
+Details on *how* to appropriately set name table records and bit flags in fonts are beyond the scope of these docs.  Please refer to [the OpenType specification](https://docs.microsoft.com/en-us/typography/opentype/spec/) for more information.
 {{< /tip >}}
 
-See the [Usage docs](usage) for instructions on font slicing and advanced font binary editing features in Slice.
+See the [Usage docs](usage) for instructions on font slicing and the advanced font binary editing features in Slice.
 
 ## Why slice a font?
 
@@ -51,7 +51,7 @@ Good question.  There are several reasons why you might want to do this:
 
 The app is built with the PyQt5 GUI framework and supports cross-platform font compilation on recent Linux distribution, macOS, and Windows versions.
 
-Font slicing and binary edits are performed with the [fonttools Python library](https://github.com/fonttools/fonttools).  This is a well-vetted library that is part of the free font compiler pipeline used by numerous professional and hobbyist type developers and for the development of most typeface families in the Google Fonts program.
+Font slicing, binary edits, and compilation are performed with the [fonttools Python library](https://github.com/fonttools/fonttools).  This is a well-vetted library that is part of the free font compiler pipeline used by numerous professional and hobbyist type developers and for the development of most typeface families in the Google Fonts program.
 
 ## Important considerations
 
