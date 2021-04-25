@@ -1,6 +1,6 @@
 ---
 title: "Usage"
-weight: 4
+weight: 3
 ---
 
 Slice is a cross-platform GUI app that works on recent versions of Linux, macOS, and Windows.

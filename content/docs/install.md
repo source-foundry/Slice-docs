@@ -1,6 +1,6 @@
 ---
 title: "Install"
-weight: 3
+weight: 2
 ---
 
 Install the application on your platform with the following instructions.

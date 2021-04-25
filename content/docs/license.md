@@ -1,6 +1,6 @@
 ---
 title: "License"
-weight: 5
+weight: 4
 ---
 
 ## Slice application
