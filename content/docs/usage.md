@@ -3,7 +3,7 @@ title: "Usage"
 weight: 3
 ---
 
-Slice is a cross-platform GUI app that works on recent versions of Linux, macOS, and Windows.
+Slice is a cross-platform GUI app that works on recent versions of Linux distros, macOS, and Windows.
 
 ## Quick Start Guide
 
