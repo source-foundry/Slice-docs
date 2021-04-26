@@ -16,7 +16,7 @@ Looking for a quick read on how to use Slice?  Check out the [Quick Start Guide]
 {{< /column >}}
 
 {{< column >}}
-![diy](/images/hero.png)
+![diy](/images/slice-hero-crunch.png)
   <a href="https://www.netlify.com">
     <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" />
   </a>
