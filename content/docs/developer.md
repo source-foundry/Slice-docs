@@ -61,7 +61,7 @@ Make edits to the project source files locally and test your changes by launchin
 make run
 ```
 
-Add tests for your new source run the test pytest- and tox-based test suite with:
+Add tests for your new source and run the test pytest- and tox-based test suite with:
 
 ```shell
 tox
@@ -97,7 +97,7 @@ Make edits to the project source files locally and test your changes by launchin
 python src\run.py
 ```
 
-Add tests for your new source run the test pytest- and tox-based test suite with:
+Add tests for your new source and run the pytest- and tox-based test suite with:
 
 ```shell
 tox
