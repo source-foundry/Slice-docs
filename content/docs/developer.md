@@ -9,8 +9,10 @@ weight: 6
     - [macOS and Linux](#macos-and-linux)
     - [Windows](#windows)
 - [Slice documentation contributions](#slice-documentation-contributions)
+  - [Requirements](#requirements-1)
+  - [Review local edits](#review-local-edits)
 
-Source contributions are welcomed!  
+Source contributions are welcomed!  Use the GitHub pull request workflow to submit a change proposal.
 
 These docs describe how to get involved in the development of the Slice project.
 
@@ -103,6 +105,30 @@ Add tests for your new source and run the pytest- and tox-based test suite with:
 tox
 ```
 
+<span style="margin-top: 30px"> </span>
 ## Slice documentation contributions
 
-The [Slice documentation source repository](https://github.com/source-foundry/Slice-docs) is hosted on GitHub.
+The [Slice documentation source repository](https://github.com/source-foundry/Slice-docs) is hosted on GitHub.  
+
+The Slice documentation is authored in Markdown files and automatically compiled to production HTML docs when the Markdown sources are merged to the main branch of the documentation repository.  The Markdown files are located in the [`content` directory of the repository](https://github.com/source-foundry/Slice-docs/tree/main/content) and follow the URL directory/file path structure that you see on the documentation site.
+
+{{< tip "warning" >}}
+Please do not commit or push updated HTML, CS, or JS files with your pull request!  You should only submit Markdown file changes if you are editing site content.
+{{< /tip >}}
+
+### Requirements
+
+- [Go compiler](https://golang.org/dl/)
+- [hugo](https://gohugo.io/) static site generator package
+
+Install the Go compiler and hugo package on your system to test local changes before you push a pull request.
+
+### Review local edits
+
+Edit the Markdown files locally and examine your edits by running the following command from the root of the documentation repository:
+
+```shell
+hugo serve
+```
+
+hugo compiles the static web site and runs a local web server so that you can view changes.  View your local edits by opening `http://localhost:1313/` in your web browser.  The site will automatically update with each iteration of edits if you allow the `hugo serve` command to run while you edit and save content in the Markdown files.
