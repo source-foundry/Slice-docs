@@ -17,7 +17,7 @@ Good question.  There are several reasons why you might want to do this:
 
 ### 1. Make a new font with a smaller design space
 
-Slice is a GUI app that takes a variable font as input and compiles a new font with a custom design sub-space.  The new font can include any combination of variable axis and axis point location definitions.  You define the sub-space by setting values for the available design axes in the app's axis editor.
+Slice is a GUI app that uses variable font input and compiles a new font with a custom design sub-space.  The new font can include any combination of variable axis and axis point location definitions.  You define the sub-space by setting values for the available design axes in the app's axis editor.
 
 {{< tip >}}
 Slice supports both static instance and variable design sub-space output fonts.  See the [Usage docs](usage) to learn how to create these output file types.
@@ -28,18 +28,18 @@ Font users with a limited use scope and no advanced production distribution requ
 ### 2. Font binary production tasks `(Optional Developer Features)`
 
 {{< tip >}}
-The app offers additional compile-time binary editing support for developers who have production engineering needs, such as defining different family names for A/B testing and setting the style mapping in a family of output fonts.
+The app offers additional compile-time binary editing support for developers with production engineering needs, such as defining different family names for A/B testing and setting the style mapping in a family of output fonts.
 
 These developer features are optional.
 {{< /tip >}}
 
 #### Edit font family and style names `(Developer Feature)`
 
-Slice provides an OpenType name table editor that allows you to define the output font family and style names.  This feature currently supports `platform=3, encoding=1, language=1033` name records only. Please refer to [the OpenType name table specification](https://docs.microsoft.com/en-us/typography/opentype/spec/name) for details about how the platform, encoding, and language ID's are used in text rendering environments.
+Slice provides an OpenType name table editor to define the output font family and style names.  This feature currently supports `platform=3, encoding=1, language=1033` name records only. Please refer to [the OpenType name table specification](https://docs.microsoft.com/en-us/typography/opentype/spec/name) for details about how the platform, encoding, and language ID's are used in text rendering environments.
 
 ### Edit style map bit flags `(Developer Feature)`
 
-The app allows a user to set and clear font binary bits in the OpenType specification-defined bit flags used for family style mapping.
+The app allows users to set and clear font binary bits in the OpenType specification-defined bit flags used for family style mapping.
 
 {{< tip >}}
 Details on *how* to appropriately set name table records and bit flags in fonts are beyond the scope of these docs.  Please refer to [the OpenType specification](https://docs.microsoft.com/en-us/typography/opentype/spec/) for more information.
