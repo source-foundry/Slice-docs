@@ -12,12 +12,12 @@ weight: 6
   - [Requirements](#requirements-1)
   - [Review local edits](#review-local-edits)
 
-Source contributions are welcomed!  Use the GitHub pull request workflow to submit a change proposal.
+Source contributions are welcome!  Use the GitHub pull request workflow to submit a change proposal.
 
 These docs describe how to get involved in the development of the Slice project.
 
 {{< tip >}}
-Looking for information on how to report an issue?  Check out the [Issues docs](issues)!
+Are you looking for a way to report issues?  Check out the [Issues docs](issues)!
 {{< /tip >}}
 
 
@@ -33,7 +33,7 @@ The [Slice application source repository](https://github.com/source-foundry/Slic
 
 ### Development Environment Setup by Platform
 
-The following instructions define how to build a Python virtual environment, install the appropriate Python dependencies, and launch the application so that you can test your source edits.
+The following instructions define how to build a Python virtual environment, install the appropriate Python dependencies, and launch the application to test your source edits.
 
 #### macOS and Linux
 
@@ -121,7 +121,7 @@ Please do not commit or push updated HTML, CS, or JS files with your pull reques
 - [Go compiler](https://golang.org/dl/)
 - [hugo](https://gohugo.io/) static site generator package
 
-Install the Go compiler and hugo package on your system to test local changes before you push a pull request.
+Install the Go compiler and hugo package on your system to test local changes before pushing a pull request.
 
 ### Review local edits
 
@@ -131,4 +131,4 @@ Edit the Markdown files locally and examine your edits by running the following 
 hugo serve
 ```
 
-hugo compiles the static web site and runs a local web server so that you can view changes.  View your local edits by opening `http://localhost:1313/` in your web browser.  The site will automatically update with each iteration of edits if you allow the `hugo serve` command to run while you edit and save content in the Markdown files.
+hugo compiles the static website and runs a local web server so that you can view changes.  View your local edits by opening `http://localhost:1313/` in your web browser.  The site will automatically update each iteration of revisions if you allow the `hugo serve` command to run while editing and saving content in the Markdown files.
