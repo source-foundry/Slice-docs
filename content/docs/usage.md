@@ -3,7 +3,7 @@ title: "Usage"
 weight: 3
 ---
 
-Slice is a cross-platform GUI app that works on recent Linux distros, macOS, and Windows.
+Slice is a cross-platform GUI app that works on recent Linux distros, macOS, and Windows. It supports *.ttf, *.woff, and *.woff2 format variable font input files.
 
 ## Quick Start Guide
 
