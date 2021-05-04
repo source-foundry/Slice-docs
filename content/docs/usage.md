@@ -8,7 +8,7 @@ Slice is a cross-platform GUI app that works on recent Linux distros, macOS, and
 The app supports output fonts with combinations of:
 
 - Fixed axis locations
-- **Restricted** variable axis ranges that are smaller than the range in the original font (new range must include axis **default value**!)
+- **Restricted** variable axis ranges that are smaller than the range in the original font (new range must include the **default axis value**!)
 - **Full** variable axis ranges that are present in the original font
 
 The instructions below describe how to define these values and compile fonts.
