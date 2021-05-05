@@ -8,6 +8,10 @@ weight: 6
   - [Development Environment Setup by Platform](#development-environment-setup-by-platform)
     - [macOS and Linux](#macos-and-linux)
     - [Windows](#windows)
+  - [Compile App Distributions by Platform](#compile-app-distributions-by-platform)
+    - [Linux](#linux)
+    - [macOS](#macos)
+    - [Windows](#windows-1)
 - [Slice documentation contributions](#slice-documentation-contributions)
   - [Requirements](#requirements-1)
   - [Review local edits](#review-local-edits)
@@ -19,8 +23,6 @@ These docs describe how to get involved in the development of the Slice project.
 {{< tip >}}
 Are you looking for a way to report issues?  Check out the [Issues docs](issues)!
 {{< /tip >}}
-
-
 
 ## Slice source code contributions
 
@@ -105,7 +107,40 @@ Add tests for your new source and run the pytest- and tox-based test suite with:
 tox
 ```
 
+### Compile App Distributions by Platform
+
+The following instructions demonstrate how to compile single file PyInstaller builds for platform-specific distribution.  
+
+{{< tip "warning" >}}
+Please note that there are undocumented app code signing / notarization steps.  These steps are not required for local development builds.  Your application package is likely to be *different* than an application package compiled at a given commit for release in this project but the approach to launch the application and the function of the source do not differ.  Please reach out on the repository if you are building a derivative with the intent to distribute to others and need more information about release preparation.
+{{< /tip >}}
+
+#### Linux
+
+We do not currently provide application package distributions for Linux distros.
+
+#### macOS
+
+Set up your macOS development environment as described in the section above, activate your Python virtual environment, and build the `Slice.app` package bundle with the following command from the root of the source repository:
+
+```shell
+make build-macos
+```
+
+Slice.app is found on the path `dist/Slice.app`.
+
+#### Windows
+
+The following instructions work on Win 10.
+
+Set up your Windows development environment as described in the section above, activate your Python virtual environment, and build the `Slice.exe` application executable with the following command from the root of the source repository:
+
+```shell
+pyinstaller --noconfirm .\target\PyInstaller-Windows\Slice-Windows.spec
+```
+
 <span style="margin-top: 30px"> </span>
+
 ## Slice documentation contributions
 
 The [Slice documentation source repository](https://github.com/source-foundry/Slice-docs) is hosted on GitHub.  
