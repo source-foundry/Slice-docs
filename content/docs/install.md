@@ -7,7 +7,7 @@ Install the application on your platform with the following instructions.
 
 ## macOS
 
-The app requires macOS v10.14 or above.
+The app requires macOS 10.14 or above.
 
 ### Homebrew installation
 
